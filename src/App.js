@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+import Header from './components/Header/header';
+import Content from './components/Content/content';
+import Footer from './components/Footer/footer';
 
 class App extends Component {
   state = {}
   render() {
     return (
       <div>
-        <h1>
-          Hello Motherfucker
-        </h1>
+        <Header />
+        <Content />
+        <Footer />
       </div>
     );
   }
