@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import './App.css';
-
-function App() {
-
+class App extends Component {
+  state = {}
+  render() {
+    return (
+      <div>
+        <h1>
+          Hello Motherfucker
+        </h1>
+      </div>
+    );
+  }
 }
 
 export default App;
