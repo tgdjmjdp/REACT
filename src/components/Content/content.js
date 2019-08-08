@@ -6,6 +6,9 @@ class Content extends Component {
         return ( 
             <h1>
                 This is Content
+                <p>
+                    { this.props.title }
+                </p>
             </h1>
          );
     }
